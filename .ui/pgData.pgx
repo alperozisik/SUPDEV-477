@@ -1,0 +1,87 @@
+{
+	"components": [
+		{
+			"type": "Page",
+			"id": "b4bf-aefa-6380-5ac1",
+			"initialized": true,
+			"themeProps": {
+				"Page": "Default"
+			},
+			"userProps": {},
+			"className": ".page",
+			"version": "6.5.2",
+			"props": {
+				"name": "pgData",
+				"children": [
+					"fe4a-0a70-27c4-4abb",
+					"7b3a-019d-c439-aaad",
+					"ad66-0986-4eb7-e307"
+				],
+				"parent": null,
+				"orientation": "PORTRAIT"
+			}
+		},
+		{
+			"type": "StatusBar",
+			"id": "fe4a-0a70-27c4-4abb",
+			"themeProps": {
+				"StatusBar": "Default"
+			},
+			"userProps": {},
+			"className": ".statusBar",
+			"props": {
+				"name": "statusBar",
+				"children": [],
+				"parent": "b4bf-aefa-6380-5ac1",
+				"isRemovable": false
+			}
+		},
+		{
+			"type": "HeaderBar",
+			"id": "7b3a-019d-c439-aaad",
+			"themeProps": {
+				"HeaderBar": "Default"
+			},
+			"userProps": {
+				"title": "Emulator Clear Test"
+			},
+			"className": ".headerBar",
+			"props": {
+				"name": "headerBar",
+				"title": "Emulator Clear Test",
+				"children": [],
+				"parent": "b4bf-aefa-6380-5ac1",
+				"isRemovable": false
+			}
+		},
+		{
+			"type": "Label",
+			"id": "ad66-0986-4eb7-e307",
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"width": null,
+				"height": null,
+				"textAlignment": "MIDCENTER",
+				"multiline": true,
+				"usePageVariable": true,
+				"text": null,
+				"flexProps": {
+					"flexGrow": 1
+				},
+				"font": {
+					"family": "Default"
+				}
+			},
+			"className": ".label",
+			"props": {
+				"name": "lbl",
+				"text": null,
+				"usePageVariable": true,
+				"children": [],
+				"parent": "b4bf-aefa-6380-5ac1"
+			}
+		}
+	]
+}
